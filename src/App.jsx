@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import CV from "./components.jsx/cv";
+import "./styles.css";
 
 const App = () => {
   const [personalInfo, setPersonalInfo] = useState({
@@ -25,7 +26,7 @@ const App = () => {
   const [isEditingExperience, setIsEditingExperience] = useState(true);
 
   return (
-    <div className="App">
+    <div className="cv-container">
       <h1>CV App</h1>
       <CV
         personalInfo={personalInfo}

@@ -14,7 +14,8 @@ const EducationForm = ({ education, onSubmit, isEditing, setIsEditing }) => {
   };
 
   return (
-    <div>
+    <div className="cv-section">
+      <h2>Education</h2>
       {isEditing ? (
         <form onSubmit={handleSubmit}>
           <div>

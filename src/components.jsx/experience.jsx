@@ -18,7 +18,8 @@ const ExperienceForm = ({
   };
 
   return (
-    <div>
+    <div className="cv-section">
+      <h2>Experience</h2>
       {isEditing ? (
         <form onSubmit={handleSubmit}>
           <div>

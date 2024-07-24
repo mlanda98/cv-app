@@ -15,7 +15,8 @@ const PersonalInfoForm = ({ personalInfo, onSubmit, isEditing, setIsEditing }) =
   };
 
   return (
-    <div>
+    <div className="cv-section">
+      <h2>Personal Information</h2>
       {isEditing ? (
         <form onSubmit={handleSubmit}>
           <div>
